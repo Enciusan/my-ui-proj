@@ -1,0 +1,82 @@
+/* FONT PIRATA */
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=UnifrakturMaguntia&display=swap');
+
+/* FONT FRAKTURE */
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+/* FONT LONG SHOT */
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.bg-img {
+  background-image: url('./img/bgpattern.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+* {
+  scroll-behavior: smooth !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.font-pirata{
+  font-family: 'Pirata One', cursive;
+}
+
+.font-germania{
+  font-family: 'Germania One', cursive;
+}
+
+.font-fraktur {
+  font-family: 'UnifrakturCook', cursive;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
